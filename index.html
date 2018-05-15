@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="./crowdsource.css" rel="stylesheet"/>
+</head>
+<body>
+  <div id="page-container">
+    <h1>Crowdsource Connections</h1>
+    <p>
+      This is my final project for 4.110, Design Across Scales, a design class taught at MIT.
+      Our theme is ‘Powers of Ten’ (based on an Eames’s film) and we are presenting our own scale
+      for measuring powers of ten. My scale is the connections between people. For this project,
+      I reached out to ten of my friends and ten of theirs and asked a couple of questions and created
+      visualizations and a mini game using the responses.
+    </p>
+
+    <h2>Where are you at?</h2>
+    <p>
+      These are the locations of the participants at the time of taking the survey. Size of marker
+      corresponds to how many people were in the same location. Lines represent the connections
+      between participants. The largest marker is at Massachusetts, where 26 out of 39 participants were located.
+    </p>
+    <div id="location-map"></div>
+
+    <h2>Where are you from?</h2>
+    <p>
+      These are the places that the participants are originally from as opposed to their current locations.
+      Size of marker again corresponds to how many people were from the same area and Lines represent
+      the connections between participants.
+    </p>
+    <div id="origin-map"></div>
+
+    <h2>What do you like?</h2>
+    <p>
+      Lastly I decided to create something fun using the participants' favorite colors, animals, and food
+      and ended up making a memory card game since I thought it would be interesting to see their favorite
+      things, which are usually considered trivia answers, before seeing their faces.
+      Can you find yourself or your friends? 
+    </p>
+    <div id="cards-container"></div>
+
+    <h2>Thank you!</h2>
+    <div id="photos-container"></div>
+  </div>
+
+  <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+  <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="./crowdsource.js"></script>
+</body>
+</html>
