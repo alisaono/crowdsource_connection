@@ -7,42 +7,57 @@
 </head>
 <body>
   <div id="page-container">
-    <h1>Crowdsource Connections</h1>
-    <p>
-      This is my final project for 4.110, Design Across Scales, a design class taught at MIT.
-      Our theme is ‘Powers of Ten’ (based on an Eames’s film) and we are presenting our own scale
-      for measuring powers of ten. My scale is the connections between people. For this project,
-      I reached out to ten of my friends and ten of theirs and asked a couple of questions and created
-      visualizations and a mini game using the responses.
-    </p>
+    <div class="section-container">
+      <h1>Crowdsource Connections</h1>
+      <p>
+        Hello, you’re looking at my final project for 4.110, Design Across Scales,
+        a design class taught at MIT. Our theme is 'Powers of Ten' (based on Eames's film)
+        and we each have to define a scale for measuring powers of ten.
+        I chose the connections between people as my scale. For this project,
+        I reached out to ten of my friends and ten of theirs to ask questions.
+        I then created a visualization and a fun matching game from their answers.
+      </p>
+    </div>
 
-    <h2>Where are you at?</h2>
-    <p>
-      These are the locations of the participants at the time of taking the survey. Size of marker
-      corresponds to how many people were in the same location. Lines represent the connections
-      between participants. The largest marker is at Massachusetts, where 26 out of 39 participants were located.
-    </p>
-    <div id="location-map"></div>
+    <div class="section-container">
+      <h2>Where are you at?</h2>
+      <p>
+        These are the locations of the participants when they took the survey.
+        The size of marker corresponds to how many people were in the same location.
+        Lines represent the connections between participants. The largest marker is
+        at Massachusetts, where 26 out of 39 participants were located.
+        The data shows that although technology connects people who are physically separated,
+        we often use it to communicate with those who are physically nearby.
+      </p>
+      <div id="location-map"></div>
+    </div>
 
-    <h2>Where are you from?</h2>
-    <p>
-      These are the places that the participants are originally from as opposed to their current locations.
-      Size of marker again corresponds to how many people were from the same area and Lines represent
-      the connections between participants.
-    </p>
-    <div id="origin-map"></div>
+    <div class="section-container">
+      <h2>Where are you from?</h2>
+      <p>
+        These are the places that the participants are originally from.
+        Again the size of the marker corresponds to how many people were from the same area
+        and lines represent the connections between participants.
+        The data shows a lot more diversity in our places of origins than our current locations.
+      </p>
+      <div id="origin-map"></div>
+    </div>
 
-    <h2>What do you like?</h2>
-    <p>
-      Lastly I decided to create something fun using the participants' favorite colors, animals, and food
-      and ended up making a memory card game since I thought it would be interesting to see their favorite
-      things, which are usually considered trivia answers, before seeing their faces.
-      Can you find yourself or your friends?
-    </p>
-    <div id="cards-container"></div>
+    <div class="section-container">
+      <h2>What do you like?</h2>
+      <p>
+        Lastly I decided to create something fun with the participants' favorite
+        colors, animals, and food. I ended up making a memory card game since
+        I thought it would be interesting to match their favorite animals and foods
+        with their faces. Can you find yourself or your friends?
+      </p>
+      <div id="cards-container"></div>
+    </div>
 
-    <h2>Thank you!</h2>
-    <div id="photos-container"></div>
+    <div class="section-container">
+      <h2>Thank you!</h2>
+      <div id="photos-container"></div>
+    </div>
   </div>
 
   <script src="https://www.amcharts.com/lib/3/ammap.js"></script>

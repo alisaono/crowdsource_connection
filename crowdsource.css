@@ -1,5 +1,5 @@
 body {
-  padding: 40px;
+  padding: 0 40px;
   background-color: #f0f0f0;
   color: #666;
   font-family: 'Open Sans', sans-serif;
@@ -15,11 +15,13 @@ h2 {
   font-size: 36px;
   font-weight: normal;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 p {
+  margin-top: 0;
+  margin-bottom: 30px;
   max-width: 800px;
 }
 
@@ -27,6 +29,14 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.section-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Maps Style */
@@ -87,10 +97,10 @@ p {
   border-color: rgba(0, 0, 0, 0.125);
 }
 
-.card.photo {
+/* .card.photo {
   width: 120px;
   height: 120px;
-}
+} */
 /* ... Cards Style */
 
 /* .card.flipping {
