@@ -266,7 +266,6 @@ function getMapLinesPoints(data, prop) {
   for (let p of points) {
     p.scale = 1 + 1 * (pointsVisited[p.id] - minVisit) / (maxVisit - minVisit)
   }
-  console.log(pointsVisited)
   return [lines, points]
 }
 
